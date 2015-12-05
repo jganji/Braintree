@@ -1,0 +1,22 @@
+body {
+	background : #1F456C;
+}
+.page{
+	background : #fff;
+	min-height:630px;
+}
+.page .header{
+	background-image: linear-gradient(bottom, rgb(247,242,247) 30%, rgb(235,245,245) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(247,242,247) 30%, rgb(235,245,245) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(247,242,247) 30%, rgb(235,245,245) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(247,242,247) 30%, rgb(235,245,245) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(247,242,247) 30%, rgb(235,245,245) 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.3, rgb(247,242,247)),
+		color-stop(1, rgb(235,245,245))
+	);
+}
